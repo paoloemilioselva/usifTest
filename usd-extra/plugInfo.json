@@ -1,0 +1,21 @@
+{
+  "Plugins": [
+    {
+      "Info": {
+        "Types": {
+          "usifTestPlugin": {
+            "bases": [ "HdSceneIndexPlugin" ],
+            "loadWithRenderer": "",
+            "priority": 0,
+            "displayName": "Test for SceneIndex filter plugin"
+          }
+        }
+      },
+      "LibraryPath": "../usifTest.dll",
+      "Name": "usifTest",
+      "Type": "library",
+      "ResourcePath": "resources",
+      "Root": ".."
+    }
+  ]
+}
